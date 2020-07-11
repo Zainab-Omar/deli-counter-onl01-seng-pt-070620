@@ -16,11 +16,11 @@ def line(line)
   end
 end
 
-def take_a_number(katz_deli,string)
-  katz_deli.each_with_index do |array, index|
-    position=index+1
-    message="Welcome, #{array}. You are number #{position} in line."
-  end
+def take_a_number(line, new_customer)
+  position = line.size + 1
+  puts "Welcome, #{new_customer}. You are number #{position} in line."
+  line << new_customer
 end
+
 
 
