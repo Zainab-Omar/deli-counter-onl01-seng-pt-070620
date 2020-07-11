@@ -1,16 +1,16 @@
 # Write your code here.
 
-katz_deli=[]
-
 def line(line)
- if line.size==0
+  message = ""
+  if (line.size == 0)
     puts "The line is currently empty."
   else
- message= line.each do |name, index|
-    puts "The line is currently: #{index+1}. #{name}"
+    message = "The line is currently:"
+    line.each_with_index do |customer, index|
+      position = index + 1
+      message << " #{position}. #{customer}"
+    end
+    puts message
   end
 end
-return message
-end
-
 
