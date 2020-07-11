@@ -22,7 +22,14 @@ def take_a_number(line, new_customer)
   line << new_customer
 end
 
-def now_serving (customer)
+def now_serving(line)
+  if (line.size == 0)
+    puts "There is nobody waiting to be served!"
+  else
+    front = line.first
+    puts "Currently serving #{front}."
+    line.shift
+  end
 end
 
 
