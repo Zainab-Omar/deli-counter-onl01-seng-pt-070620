@@ -8,6 +8,6 @@ def line(katz_deli)
   katz_deli.each do
     puts "The line is currently: #{count}. #{katz_deli}"
   end
-else puts ""
+else puts "The line is currently empty."
 end
 
