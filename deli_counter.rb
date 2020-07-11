@@ -2,6 +2,8 @@
 
 katz_deli=[]
 
-def line 
+def line(katz_deli)
+  katz_deli.each do
+    puts ""
 end
 
