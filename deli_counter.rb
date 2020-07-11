@@ -18,6 +18,9 @@ end
 
 def take_a_number(katz_deli,string)
   katz_deli.each_with_index do |array, index|
-    message=""
-    
+    position=index+1
+    message="Welcome, #{array}. You are number #{position} in line."
+  end
+end
+
 
