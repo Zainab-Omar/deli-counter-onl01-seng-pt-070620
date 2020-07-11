@@ -4,9 +4,10 @@ katz_deli=[]
 
 def line(katz_deli)
   count=1
-  if count
+  if katz_deli.length!=0
   katz_deli.each do
-    puts "The line is currently: #{katz_deli.index}. #{katz_deli}"
+    puts "The line is currently: #{count}. #{katz_deli}"
   end
+else puts ""
 end
 
