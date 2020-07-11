@@ -4,6 +4,7 @@ katz_deli=[]
 
 def line(katz_deli)
   katz_deli.each do
-    puts ""
+    puts "The line is currently: #{katz_deli.index}. #{katz_deli}"
+  end
 end
 
