@@ -8,7 +8,8 @@ def line(katz_deli)
   katz_deli.each do |name|
     puts "The line is currently: #{count}. #{name}"
     count=+1
-  end
 else puts "The line is currently empty."
+end
+end
 end
 
