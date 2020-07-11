@@ -1,5 +1,7 @@
 # Write your code here.
 
+katz_deli = []
+
 def line(line)
   message = ""
   if (line.size == 0)
@@ -8,7 +10,7 @@ def line(line)
     message = "The line is currently:"
     line.each_with_index do |customer, index|
       position = index + 1
-      message << " #{position}. #{customer}"
+      message.push (" #{position}. #{customer}")
     end
     puts message
   end
