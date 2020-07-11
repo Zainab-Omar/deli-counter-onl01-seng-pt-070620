@@ -19,7 +19,7 @@ end
 def take_a_number(line, new_customer)
   position = line.size + 1
   puts "Welcome, #{new_customer}. You are number #{position} in line."
-  line << new_customer
+  #line << new_customer
 end
 
 
