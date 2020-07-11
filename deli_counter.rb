@@ -17,5 +17,7 @@ def line(line)
 end
 
 def take_a_number(katz_deli,string)
-  
+  katz_deli.each_with_index do |array, index|
+    message=""
+    
 
