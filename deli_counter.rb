@@ -16,5 +16,6 @@ def line(line)
   end
 end
 
-
+def take_a_number(katz_deli,string)
+  
 
